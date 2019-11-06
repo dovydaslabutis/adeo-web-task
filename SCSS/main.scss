@@ -1,5 +1,14 @@
 @import 'config';
 
 header{
-    background: $primary-color;
+   background-color:#448ccb;
+   position: fixed;
+   width: 100%;
+   padding: 1rem;
+   color:#fff;
+   font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+top_nav_right{
+
 }

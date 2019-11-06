@@ -6,6 +6,11 @@
 }
 
 header {
-  background: #448ccb;
+  background-color: #448ccb;
+  position: fixed;
+  width: 100%;
+  padding: 1rem;
+  color: #fff;
+  font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 /*# sourceMappingURL=main.css.map */
