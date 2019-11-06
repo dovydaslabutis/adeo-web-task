@@ -11,7 +11,6 @@ header {
   width: 100%;
   padding: 1rem;
   color: #fff;
-  padding: 20px 0 0 50px;
   font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -22,9 +21,12 @@ header {
 
 p {
   font-size: 30px;
-  padding: 20px 0 0 13px;
   font-weight: bold;
   display: inline;
+}
+
+p:last-child {
+  font-weight: italic;
 }
 
 /* Top right navigation bar */
@@ -32,7 +34,7 @@ p {
   float: right;
   font-size: 16px;
   color: white;
-  padding: 0 45px 60px 0px;
+  padding: 0 20px 0 0px;
   text-decoration: none;
   font-weight: bold;
 }
@@ -50,7 +52,7 @@ p {
   border: none;
   outline: none;
   color: white;
-  padding: 0 45px 60px 0px;
+  padding: 0 20px 0 0px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
