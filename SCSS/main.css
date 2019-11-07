@@ -7,7 +7,6 @@
 
 header {
   background-color: #448ccb;
-  position: fixed;
   width: 100%;
   padding: 1rem;
   color: white;
@@ -126,16 +125,30 @@ header {
   display: block;
 }
 
-.row {
-  display: block;
-  padding: 250pt 0 0 20pt;
+.row_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .welcome {
   background-color: #448ccb;
+  font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  margin: 70pt 50pt 50pt 100pt;
+  padding: 50pt;
+  width: 18%;
+  height: auto;
 }
 
 .design {
+  width: 640px;
+  height: 528px;
   background-color: #d7d7d7;
+  margin: 70pt auto 0 50pt;
 }
 /*# sourceMappingURL=main.css.map */
