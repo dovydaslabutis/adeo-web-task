@@ -10,7 +10,9 @@ header{
    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-
+.logo{
+  margin: 0pt 0 20pt 10pt;
+}
 
 .logo a{
   font-size: 25pt;
@@ -27,13 +29,16 @@ header{
   font-weight: 300;
 }
 
+.topleft {
+  margin: 0pt 0 0 30pt;
+}
 
 .topleft a {
     float: left;
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 0 20pt 0 30pt;
+    padding: 0 10pt 0 10pt;
     text-decoration: none;
     font-size: 12pt;
     border-right:1pt solid #bbb;
@@ -43,14 +48,18 @@ header{
     border-right: none;
   }
 
-  
+.topright{
+  padding: 0 0 20pt 0pt;
+  margin: -40pt 10pt 20pt 0;
+}
 
 .topright a {
-    display: flex;
+    
     float: right;
     color: #f2f2f2;
     text-align: center;
-    padding: 0 20pt 0 16pt;
+    padding: 0 20pt 0pt 16pt;
+    margin: 0 0 20pt 0pt;
     text-decoration: none;
     font-size: 15pt;
     font-weight: bold;
