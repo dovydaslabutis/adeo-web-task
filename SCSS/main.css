@@ -126,9 +126,16 @@ header {
   display: block;
 }
 
-.welcome {
-  background-color: #448ccb;
+.row {
   display: block;
   padding: 250pt 0 0 20pt;
+}
+
+.welcome {
+  background-color: #448ccb;
+}
+
+.design {
+  background-color: #d7d7d7;
 }
 /*# sourceMappingURL=main.css.map */

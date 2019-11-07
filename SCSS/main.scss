@@ -155,12 +155,17 @@ header{
   //     text-align: left;
   //   }
   // }
-.leftbar{
 
-}
-.welcome{
-  background-color: $primary-color;
+.row{
     display: block;
     padding: 250pt 0 0 20pt;
   }
-  
+ 
+.welcome{
+  background-color: $primary-color;
+}
+
+
+.design {
+  background-color:#d7d7d7;
+  }
