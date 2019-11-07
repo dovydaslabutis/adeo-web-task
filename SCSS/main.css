@@ -274,6 +274,12 @@ img {
   padding: 10pt 0 10pt 0;
 }
 
+.customlist table {
+  width: 50%;
+  height: auto;
+  font-size: 17pt;
+}
+
 .web-dev {
   width: 50%;
   height: auto;
