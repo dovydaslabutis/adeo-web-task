@@ -248,22 +248,45 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: black;
-  -webkit-box-orient: vertical;
+  width: 100%;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: black;
+  margin-top: 20pt;
 }
 
-.wireframe {
+.customlist {
   font-size: 17pt;
+  width: 50%;
+  height: auto;
+  padding: 20pt 50pt 20pt 20pt;
 }
 
-.wireframe h5 {
+.customlist h5 {
   font-size: 19pt;
 }
 
-.wireframe p {
+.customlist p {
   font-size: 17pt;
+  line-height: 25pt;
+  padding: 10pt 0 10pt 0;
+}
+
+.web-dev {
+  width: 50%;
+  height: auto;
+  padding: 20pt 50pt 20pt 20pt;
+}
+
+.web-dev h6 {
+  font-size: 19pt;
+}
+
+.web-dev p {
+  font-size: 17pt;
+  line-height: 25pt;
+  padding: 10pt 0 10pt 0;
 }
 /*# sourceMappingURL=main.css.map */
