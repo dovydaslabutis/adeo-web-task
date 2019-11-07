@@ -129,6 +129,7 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -140,15 +141,65 @@ header {
   font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: white;
   margin: 70pt 50pt 50pt 100pt;
-  padding: 50pt;
-  width: 18%;
+  padding: 50pt 50pt 0 50pt;
+  width: 17%;
   height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.welcome h1 {
+  font-size: 41pt;
+  padding-bottom: 25pt;
+}
+
+.welcome .whitestripe {
+  background-color: white;
+  height: 5pt;
+  width: 25%;
+  margin-bottom: 25pt;
+}
+
+.welcome p {
+  font-size: 17pt;
+}
+
+.welcome .btnlearn {
+  font-size: 15pt;
+  background-color: #3b91c2;
+  border: 4pt solid white;
+  color: white;
+  padding: 5pt 5pt 5pt 5pt;
+  margin: 300pt 5pt 0 100pt;
+}
+
+img {
+  width: 100%;
 }
 
 .design {
-  width: 640px;
-  height: 528px;
+  width: 50%;
+  height: 25%;
+  font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #d7d7d7;
-  margin: 70pt auto 0 50pt;
+  margin: 70pt 50pt 50pt 50pt;
+}
+
+.design h2 {
+  font-size: 19pt;
+  padding: 20pt 40pt 20pt  70pt;
+}
+
+.design p {
+  font-size: 14pt;
+  padding: 0 40pt 40pt 70pt;
+  line-height: 25pt;
 }
 /*# sourceMappingURL=main.css.map */

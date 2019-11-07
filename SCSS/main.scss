@@ -159,6 +159,7 @@ header{
 // first row placement and content
 .row_1{
   display:flex;
+  width:100%;
   flex-direction: row;
 }
   
@@ -167,18 +168,60 @@ header{
     font-family: $font-family;
     color:$light-color;
     margin: 70pt 50pt 50pt 100pt;
-    padding: 50pt;
-    width:18%;
+    padding: 50pt 50pt 0 50pt;
+    width:17%;
     height: auto;
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    
+    h1{
+      font-size: 41pt;
+      padding-bottom: 25pt;
+    }
+
+    .whitestripe{
+      background-color: $light-color;
+      height:5pt;
+      width:25%;
+      margin-bottom: 25pt;
+    }
+
+    p{
+      font-size: 17pt;
+    }
+
+    .btnlearn{
+      font-size: 15pt;
+      background-color: #3b91c2;
+      border: 4pt solid white;
+      color: $light-color;
+      padding: 5pt 5pt 5pt 5pt;
+      margin: 300pt 5pt 0 100pt;
+    }
 }
 
-
+img{
+  width: 100%;
+}
 
 .design{
-    width:640px;
-    height:528px;
+    width:50%;
+    height: 25%;
+    font-family: $font-family;
     background-color: #d7d7d7;
-    margin: 70pt auto 0 50pt;
+    margin: 70pt 50pt 50pt 50pt;
+
+    h2{
+      font-size: 19pt;
+      padding: 20pt 40pt 20pt  70pt;
+    }
+
+    p{
+      font-size: 14pt;
+      padding: 0 40pt 40pt 70pt;
+      line-height: 25pt;
+    }
 }
 
 
