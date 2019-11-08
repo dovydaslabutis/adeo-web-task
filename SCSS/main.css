@@ -123,7 +123,6 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -172,7 +171,7 @@ header {
   border: 4pt solid white;
   color: white;
   padding: 5pt 5pt 5pt 5pt;
-  margin: 300pt 5pt 0 100pt;
+  margin: 300pt 5pt 30pt 100pt;
 }
 
 img {
@@ -180,8 +179,6 @@ img {
 }
 
 .design {
-  width: 50%;
-  height: 25%;
   font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #d7d7d7;
   margin: 70pt 50pt 50pt 50pt;
@@ -202,7 +199,6 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -229,18 +225,20 @@ img {
 }
 
 .wire-fr_cust-li {
-  margin: 50pt 20pt 50pt 0;
+  margin: 50pt 20pt 50pt 10pt;
   width: 50%;
   color: white;
 }
 
 .wire-fr_cust-li h4 {
   font-size: 19pt;
+  padding-left: 20pt;
   padding-bottom: 20pt;
 }
 
 .wire-fr_cust-li p {
   font-size: 17pt;
+  padding-left: 20pt;
 }
 
 .whitebox {
@@ -259,7 +257,6 @@ img {
 
 .customlist {
   font-size: 17pt;
-  width: 50%;
   height: auto;
   padding: 20pt 50pt 20pt 20pt;
 }
@@ -275,9 +272,9 @@ img {
 }
 
 .customlist table {
-  width: 50%;
-  height: auto;
   font-size: 17pt;
+  line-height: 25pt;
+  text-decoration: underline;
 }
 
 .web-dev {
@@ -294,5 +291,112 @@ img {
   font-size: 17pt;
   line-height: 25pt;
   padding: 10pt 0 10pt 0;
+}
+
+.row_3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.contat {
+  margin: 50pt 30pt 50pt 50pt;
+  width: 30%;
+}
+
+.contat h1 {
+  font-size: 41pt;
+  margin-bottom: 50pt;
+}
+
+.contat .blackstripe {
+  background-color: black;
+  height: 10pt;
+  width: 10%;
+  margin-bottom: 25pt;
+}
+
+.contat p {
+  font-size: 17pt;
+  line-height: 25pt;
+}
+
+form {
+  margin: 182pt 20pt 20pt 30pt;
+}
+
+form p {
+  font-size: 15pt;
+  font-weight: 600;
+  margin-bottom: 5pt;
+}
+
+input {
+  padding: 5pt 200pt 5pt 5pt;
+  margin: 1pt 0 20pt 0;
+}
+
+textarea {
+  padding: 0 215pt 200pt 0;
+}
+
+.send {
+  border: 3pt solid #448ccb;
+  padding: 5pt 5pt 5pt 5pt;
+  background-color: white;
+  color: #448ccb;
+  font-size: 15pt;
+  margin-top: 10pt;
+}
+
+footer {
+  background-color: #1e2123;
+  color: white;
+  font-family: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.leftside {
+  font-size: 14pt;
+  font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 30pt 50pt 30pt 40pt;
+  line-height: 25pt;
+  color: #858585;
+}
+
+.footernav {
+  margin: 20pt 40pt 20pt 200pt;
+}
+
+a {
+  padding-right: 10pt;
+  text-decoration: none;
+  color: white;
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+.allrights {
+  margin: 50pt 40pt 10pt 390pt;
+}
+
+.allrights p {
+  display: inline;
+}
+
+.allrights .bold {
+  font-weight: 900;
+}
+
+.allrights .thick {
+  font-weight: 400;
 }
 /*# sourceMappingURL=main.css.map */
