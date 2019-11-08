@@ -377,6 +377,7 @@ footer{
 
 .footernav {
   margin:20pt 40pt 20pt 200pt;
+  font-family: $font-family;
   
 }
 a {
@@ -388,11 +389,12 @@ a {
 }
 
 .allrights{
-  margin:50pt 40pt 10pt 390pt;
+  margin:50pt 40pt 10pt 380pt;
 }
 
 
 .allrights p{
+  font-family: $font-family;
   display:inline;
 }
 

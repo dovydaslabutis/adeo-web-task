@@ -374,6 +374,7 @@ footer {
 
 .footernav {
   margin: 20pt 40pt 20pt 200pt;
+  font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -385,10 +386,11 @@ a {
 }
 
 .allrights {
-  margin: 50pt 40pt 10pt 390pt;
+  margin: 50pt 40pt 10pt 380pt;
 }
 
 .allrights p {
+  font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
   display: inline;
 }
 
