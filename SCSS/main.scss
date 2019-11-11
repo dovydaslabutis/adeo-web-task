@@ -1,4 +1,5 @@
 @import 'config';
+@import 'mobile.scss';
 
 // header 
 
@@ -345,6 +346,7 @@ footer{
   color:$light-color;
   font-family: inherit;
   display:flex;
+  width: auto;
   
 }
 
@@ -377,10 +379,7 @@ a {
 .allrights{
   margin:100pt 0 10pt 310pt;
   padding-bottom: 10pt;
-  
-  
 }
-
 
 .allrights p{
   font-family: $font-family;

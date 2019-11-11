@@ -5,6 +5,375 @@
   padding: 0;
 }
 
+@media only screen and (mid-width: 375px) {
+  header {
+    background-color: #448ccb;
+    color: white;
+    min-width: 375px;
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  header .navleft {
+    padding-top: 10pt;
+    margin-left: 100pt;
+  }
+  header .navleft a {
+    color: white;
+    text-decoration: none;
+    font-size: 12pt;
+    border-right: 1pt solid #bbb;
+  }
+  header .navleft a:last-child {
+    border-right: none;
+  }
+  header .headerbot {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header .logo {
+    width: 50%;
+    margin: 2pt 0 2pt 10pt;
+  }
+  header .logo a {
+    font-size: 25pt;
+    text-decoration: none;
+    color: white;
+    padding-top: 20pt;
+  }
+  header .logo .bold {
+    font-weight: 900;
+  }
+  header .logo .thick {
+    font-weight: 400;
+  }
+  header .topright {
+    margin-top: 30pt;
+    min-width: 15%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -ms-flex-line-pack: stretch;
+        align-content: stretch;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  header .topright a {
+    text-align: center;
+    padding: 0 20pt 0pt 16pt;
+    text-decoration: none;
+    font-size: 15pt;
+    font-weight: bold;
+  }
+  header .dropdown {
+    overflow: hidden;
+  }
+  header .dropdown .dropbtn {
+    font-size: 15pt;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit;
+    padding: 0 15pt 0 15pt;
+    cursor: pointer;
+  }
+  header .topright .dropdown :hover {
+    color: black;
+  }
+  header .dropdown :active {
+    color: black;
+  }
+  header .dropdown-content {
+    display: none;
+    border: 2px solid black;
+    background-color: black;
+    width: 100pt;
+    position: absolute;
+  }
+  header .arrow {
+    height: 15pt;
+    width: 15pt;
+    background-color: black;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  header .dropdown-content a {
+    color: white;
+    padding: 12px 20px;
+    font-size: 11pt;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  header .dropdown-content a:hover {
+    background-color: white;
+  }
+  header .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .row_1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .welcome {
+    background-color: #448ccb;
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    margin: 70pt 50pt 50pt 100pt;
+    padding: 50pt 50pt 0 50pt;
+    width: 17%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .welcome h1 {
+    font-size: 41pt;
+    padding-bottom: 25pt;
+  }
+  .welcome .whitestripe {
+    background-color: white;
+    height: 8pt;
+    width: 25%;
+    margin-bottom: 25pt;
+  }
+  .welcome p {
+    font-size: 17pt;
+    line-height: 25pt;
+  }
+  .welcome .btnlearn {
+    font-size: 15pt;
+    background-color: #3b91c2;
+    border: 4pt solid white;
+    color: white;
+    padding: 5pt 5pt 5pt 5pt;
+    margin: 300pt 5pt 30pt 100pt;
+  }
+  img {
+    width: 100%;
+  }
+  .design {
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #d7d7d7;
+    margin: 70pt 50pt 50pt 50pt;
+  }
+  .design h2 {
+    font-size: 19pt;
+    padding: 20pt 40pt 20pt  70pt;
+  }
+  .design p {
+    font-size: 14pt;
+    padding: 0 40pt 40pt 70pt;
+    line-height: 25pt;
+  }
+  .row_2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    background-color: #448ccb;
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  .webdev {
+    color: white;
+    width: 17%;
+    margin: 50pt 30pt 50pt 100pt;
+  }
+  .webdev h3 {
+    font-size: 19pt;
+    padding-bottom: 20pt;
+  }
+  .webdev p {
+    font-size: 17pt;
+    line-height: 25pt;
+    text-align: left;
+  }
+  .wire-fr_cust-li {
+    margin: 50pt 20pt 50pt 10pt;
+    width: 50%;
+    color: white;
+  }
+  .wire-fr_cust-li h4 {
+    font-size: 19pt;
+    padding-left: 20pt;
+    padding-bottom: 20pt;
+  }
+  .wire-fr_cust-li p {
+    font-size: 17pt;
+    padding-left: 20pt;
+  }
+  .whitebox {
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    color: black;
+    margin-top: 20pt;
+  }
+  .customlist {
+    font-size: 17pt;
+    height: auto;
+    padding: 20pt 50pt 20pt 20pt;
+  }
+  .customlist h5 {
+    font-size: 19pt;
+  }
+  .customlist p {
+    font-size: 17pt;
+    line-height: 25pt;
+    padding: 10pt 0 10pt 0;
+  }
+  .customlist table {
+    font-size: 17pt;
+    line-height: 25pt;
+    text-decoration: underline;
+  }
+  .web-dev {
+    width: 50%;
+    height: auto;
+    padding: 20pt 50pt 20pt 20pt;
+  }
+  .web-dev h6 {
+    font-size: 19pt;
+  }
+  .web-dev p {
+    font-size: 17pt;
+    line-height: 25pt;
+    padding: 10pt 0 10pt 0;
+  }
+  .row_3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-left: 100pt;
+  }
+  .contat {
+    margin: 50pt 30pt 50pt 0pt;
+    width: 30%;
+  }
+  .contat h1 {
+    font-size: 41pt;
+    margin-bottom: 20pt;
+  }
+  .contat .blackstripe {
+    background-color: black;
+    height: 10pt;
+    width: 10%;
+    margin-bottom: 25pt;
+  }
+  .contat p {
+    font-size: 17pt;
+    line-height: 25pt;
+  }
+  form {
+    margin: 150pt 20pt 20pt 30pt;
+  }
+  form :focus {
+    border: 5px solid black;
+  }
+  form p {
+    font-size: 15pt;
+    font-weight: 600;
+    margin-bottom: 5pt;
+  }
+  input {
+    padding: 5pt 200pt 5pt 5pt;
+    margin: 1pt 0 20pt 0;
+  }
+  textarea {
+    padding: 0 215pt 200pt 0;
+  }
+  .send {
+    border: 3pt solid #448ccb;
+    padding: 4pt 4pt 4pt 4pt;
+    background-color: white;
+    color: #448ccb;
+    font-size: 15pt;
+    margin-top: 10pt;
+  }
+  footer {
+    background-color: #1e2123;
+    color: white;
+    font-family: inherit;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: auto;
+  }
+  .leftside {
+    font-size: 14pt;
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 30pt 100pt 30pt 0pt;
+    margin-left: 100pt;
+    line-height: 25pt;
+    color: #858585;
+  }
+  .footernav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 20pt;
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    float: right;
+    margin: 0 100pt 0 100pt;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 14pt;
+    font-weight: bold;
+    padding: 0 10pt 0 10pt;
+  }
+  .allrights {
+    margin: 100pt 0 10pt 310pt;
+    padding-bottom: 10pt;
+  }
+  .allrights p {
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: inline;
+  }
+  .allrights .bold {
+    font-weight: 900;
+  }
+  .allrights .thick {
+    font-weight: 400;
+  }
+}
+
 header {
   background-color: #448ccb;
   color: white;
@@ -387,6 +756,7 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: auto;
 }
 
 .leftside {
