@@ -394,40 +394,47 @@ a {
   font-weight: 400;
 }
 
+
+
+
+
+
 @media screen and (max-width: 600px) {
   header {
     width:100%;
     display:block;
-    
   }
   .navleft{
-    padding-top:0;
-    margin-left:0;
-   }
-   .logo{
+    padding:0;
     margin:0;
-  }
+   }
+
   .headerbot{
     display:block;
   }
-  .topright{
-    display:block;
-    width: 40%;
+   .logo{
+    width:0%;
+    margin:0;
+    
   }
   
-}
+  .topright{
+    display:block;
+    width: 10%;
+    padding: 50pt 0 50pt 0;
+    margin:0;
+    
+  }
 
-@media screen and (max-width: 600px) {
   .row_1{
     display:block;
     height:50%;
   }
-}
 
-@media screen and (max-width: 600px) {
   .welcome{
     min-width: 100%;
     margin:0;
+    height:50%;
   }
   img{
     width: 100%;
@@ -435,16 +442,71 @@ a {
   .design{
     margin:0;
   }
-}
 
-@media screen and (max-width: 600px) {
   .row_2{
     display:block;
-    height:50%;
+    
   }
   .webdev{
+    margin:0 5pt 5pt 10pt;
+    padding-top: 20pt;
+    width: 80%;
+  }
+  
+  .webdev p{
+    width: 70%;
+  }
+
+  .wire-fr_cust-li{
+    margin:0;
+    width:100%;
+    padding-top: 20pt;
+  }
+  .whitebox{
+    display: block;
+  }
+  .web-dev{
+    width:100%;
+  }
+  .row_3{
+    display:block;
+    margin:10pt 0 0 10pt;
+  }
+  .contat{
+    width: 100%;
+  }
+
+  form{
+    margin:10pt 0 20pt 20pt;
+  }
+  input{
+    padding: 5pt 40pt 5pt 5pt;
+  }
+
+  textarea{
+    padding:0 100pt 50pt 0;
+  }
+
+  footer{
+    display:block;
+  }
+  .leftside{
+    margin:0;
+    margin-left:20pt;
+  }
+
+  .footernav {
+    display: block;
+    float: none;
     margin:0;
   }
+
+  .allrights{
+    margin:10pt 0 10pt 10pt;
+  }
+
+
+
 
 
 }
