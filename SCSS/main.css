@@ -14,14 +14,14 @@ header {
 }
 
 .logo {
-  margin: 0pt 0 20pt 10pt;
+  margin: 0pt 0 20pt 100pt;
 }
 
 .logo a {
   font-size: 25pt;
   text-decoration: none;
   color: white;
-  padding: 20pt 0px 0 30pt;
+  padding-top: 20pt;
   display: block;
 }
 
@@ -34,7 +34,7 @@ header {
 }
 
 .topleft {
-  margin: 0pt 0 0 30pt;
+  margin: 0pt 0 0 90pt;
 }
 
 .topleft a {
@@ -79,7 +79,7 @@ header {
   border: none;
   outline: none;
   color: white;
-  padding: 0 20pt 0 16pt;
+  padding: 0 20pt 0 15pt;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
@@ -94,9 +94,7 @@ header {
   position: absolute;
   border: 3px solid black;
   background-color: black;
-  min-width: 160px;
-  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  min-width: 120pt;
   z-index: 1;
 }
 
@@ -155,7 +153,7 @@ header {
 
 .welcome .whitestripe {
   background-color: white;
-  height: 5pt;
+  height: 8pt;
   width: 25%;
   margin-bottom: 25pt;
 }
@@ -210,7 +208,7 @@ img {
 .webdev {
   color: white;
   width: 17%;
-  margin: 50pt 30pt 50pt 50pt;
+  margin: 50pt 30pt 50pt 100pt;
 }
 
 .webdev h3 {
@@ -297,16 +295,16 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
   font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-left: 100pt;
 }
 
 .contat {
-  margin: 50pt 30pt 50pt 50pt;
+  margin: 50pt 30pt 50pt 0pt;
   width: 30%;
 }
 
@@ -331,6 +329,10 @@ form {
   margin: 182pt 20pt 20pt 30pt;
 }
 
+form :focus {
+  border: 5px solid black;
+}
+
 form p {
   font-size: 15pt;
   font-weight: 600;
@@ -348,7 +350,7 @@ textarea {
 
 .send {
   border: 3pt solid #448ccb;
-  padding: 5pt 5pt 5pt 5pt;
+  padding: 4pt 4pt 4pt 4pt;
   background-color: white;
   color: #448ccb;
   font-size: 15pt;
@@ -367,26 +369,33 @@ footer {
 .leftside {
   font-size: 14pt;
   font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  padding: 30pt 50pt 30pt 40pt;
+  padding: 30pt 100pt 30pt 0pt;
+  margin-left: 100pt;
   line-height: 25pt;
   color: #858585;
 }
 
 .footernav {
-  margin: 20pt 40pt 20pt 200pt;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 20pt;
   font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  float: right;
+  margin: 0 100pt 0 100pt;
 }
 
 a {
-  padding-right: 10pt;
   text-decoration: none;
   color: white;
   font-size: 14pt;
   font-weight: bold;
+  padding: 0 10pt 0 10pt;
 }
 
 .allrights {
-  margin: 50pt 40pt 10pt 380pt;
+  margin: 100pt 0 10pt 310pt;
+  padding-bottom: 10pt;
 }
 
 .allrights p {
