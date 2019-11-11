@@ -434,4 +434,13 @@ a {
 .allrights .thick {
   font-weight: 400;
 }
+
+@media screen and (max-width: 600px) {
+  header {
+    width: 100%;
+  }
+  .logo {
+    margin: 0;
+  }
+}
 /*# sourceMappingURL=main.css.map */
