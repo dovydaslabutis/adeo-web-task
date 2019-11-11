@@ -438,8 +438,50 @@ a {
 @media screen and (max-width: 600px) {
   header {
     width: 100%;
+    display: block;
+  }
+  .navleft {
+    padding-top: 0;
+    margin-left: 0;
   }
   .logo {
+    margin: 0;
+  }
+  .headerbot {
+    display: block;
+  }
+  .topright {
+    display: block;
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .row_1 {
+    display: block;
+    height: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .welcome {
+    min-width: 100%;
+    margin: 0;
+  }
+  img {
+    width: 100%;
+  }
+  .design {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .row_2 {
+    display: block;
+    height: 50%;
+  }
+  .webdev {
     margin: 0;
   }
 }
