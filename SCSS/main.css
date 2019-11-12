@@ -22,6 +22,8 @@ header .navleft a {
   text-decoration: none;
   font-size: 12pt;
   border-right: 1pt solid #bbb;
+  padding-right: 10pt;
+  padding-left: 10pt;
 }
 
 header .navleft a:last-child {
@@ -60,6 +62,7 @@ header .topright {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  color: white;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -81,6 +84,7 @@ header .topright a {
   padding: 0 20pt 0pt 16pt;
   text-decoration: none;
   font-size: 15pt;
+  color: white;
   font-weight: bold;
 }
 

@@ -20,6 +20,8 @@ header{
     text-decoration: none;
     font-size: 12pt;
     border-right:1pt solid #bbb;
+    padding-right:10pt;
+    padding-left:10pt;
    }
    .navleft a:last-child {
     border-right: none;
@@ -52,6 +54,7 @@ header{
   margin-top: 30pt;
   width: 50%;
   display:flex;
+  color:$light-color;
   flex-direction:row;
   flex-wrap:wrap;
   justify-content: flex-end;
@@ -64,6 +67,7 @@ header{
   padding: 0 20pt 0pt 16pt;
   text-decoration: none;
   font-size: 15pt;
+  color:$light-color;
   font-weight: bold;
   }
   
