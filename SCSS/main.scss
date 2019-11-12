@@ -88,10 +88,6 @@ header{
     color:$dark-color;
   }
 
-  .dropdown :active {
-    color:$dark-color;
-  }
-
   .dropdown-content {
     display: none;
     border: 2px solid black;
@@ -100,13 +96,6 @@ header{
     position:absolute;
   }
 
-  .arrow {
-    height: 15pt;
-    width: 15pt;
-    background-color: black;
-    transform: rotate(45deg);
-  }
- 
   .dropdown-content a {
     color:$light-color;
     padding: 12px 20px;
@@ -301,7 +290,6 @@ img{
     margin-bottom: 25pt;
   }
       
-      
   p{
     font-size: 17pt;
     line-height: 25pt;
@@ -346,8 +334,7 @@ footer{
   color:$light-color;
   font-family: inherit;
   display:flex;
-  width: auto;
-  
+  width: 100%;
 }
 
 .leftside{
@@ -357,16 +344,18 @@ footer{
   margin-left:100pt;
   line-height: 25pt;
   color:#858585;
+  width: 50%;
 }
-
-.footernav {
-  display:flex;
+.rightside{
+  width:50%;
   padding-top: 20pt;
   font-family: $font-family;
-  float:right;
-  margin:0 100pt 0 100pt;
-  
+  flex-direction:row;
+
+.footernav {
+ margin-left:400pt;
 }
+
 a {
   text-decoration: none;
   color:white;
@@ -377,8 +366,10 @@ a {
 }
 
 .allrights{
-  margin:100pt 0 10pt 310pt;
-  padding-bottom: 10pt;
+  padding: 50pt 0 20pt 0;
+  float: right;
+  margin-right:100pt;
+  
 }
 
 .allrights p{
@@ -393,11 +384,11 @@ a {
 .allrights .thick{
   font-weight: 400;
 }
+}
 
 
 
-
-
+// responsive layout for smartphones
 
 @media screen and (max-width: 600px) {
   header {
@@ -483,25 +474,31 @@ a {
 
   footer{
     display:flex;
-    width: 50%;
+    width: 100%;
   
   .leftside{
     padding: 10pt 10pt 20pt 20pt;
     margin-left:0;
+    width:50%;
   }
+  
   .footernav{
+    display:block;
     margin:0;
+    padding:0;
     float:none;
+    flex-direction:none;
   }
   .allrights{
-    margin:0;
-    margin-top:180pt;
+    margin-right:0;
+    margin-top:0;
+    float:none;
   }
 }
 
 }
 
-
+// responsive layout for tablets
 
 @media screen and (max-width: 1024px) {
   header{
@@ -604,7 +601,7 @@ a {
   }
 
   .allrights{
-    margin:100pt 20pt 0 10pt;
+    margin:100pt 0 0 10pt;
     float:right;
     
   }
