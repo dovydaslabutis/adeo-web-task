@@ -466,7 +466,7 @@ a {
     height: 50%;
   }
   .welcome {
-    min-width: 100%;
+    width: 100%;
     margin: 0;
     height: 50%;
   }
@@ -480,7 +480,7 @@ a {
     display: block;
   }
   .webdev {
-    margin: 0 5pt 5pt 10pt;
+    margin: 0 5pt 5pt 20pt;
     padding-top: 20pt;
     width: 80%;
   }
@@ -500,7 +500,7 @@ a {
   }
   .row_3 {
     display: block;
-    margin: 10pt 0 0 10pt;
+    margin: 10pt 0 0 20pt;
   }
   .contat {
     width: 100%;
@@ -515,19 +515,22 @@ a {
     padding: 0 100pt 50pt 0;
   }
   footer {
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 50%;
   }
-  .leftside {
+  footer .leftside {
+    padding: 10pt 10pt 20pt 20pt;
+    margin-left: 0;
+  }
+  footer .footernav {
     margin: 0;
-    margin-left: 20pt;
-  }
-  .footernav {
-    display: block;
     float: none;
-    margin: 0;
   }
-  .allrights {
-    margin: 10pt 0 10pt 10pt;
+  footer .allrights {
+    margin: 0;
+    margin-top: 180pt;
   }
 }
 
@@ -622,7 +625,7 @@ a {
     margin-left: 200pt;
   }
   .allrights {
-    margin: 100pt 0 0 10pt;
+    margin: 100pt 20pt 0 10pt;
     float: right;
   }
 }

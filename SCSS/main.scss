@@ -407,7 +407,6 @@ a {
     padding:0;
     margin-left:0;
    }
-
   .headerbot{
     display:block;
     margin:0;
@@ -416,7 +415,6 @@ a {
     width:0%;
     margin:0;
   }
-  
   .topright{
     display:block;
     float:none;
@@ -427,14 +425,12 @@ a {
   .dropdown .dropbtn {
     margin:0;
   }
-
   .row_1{
     display:block;
     height:50%;
   }
-
   .welcome{
-    min-width: 100%;
+    width: 100%;
     margin:0;
     height:50%;
   }
@@ -444,21 +440,17 @@ a {
   .design{
     margin:0;
   }
-
   .row_2{
     display:block;
-    
   }
   .webdev{
-    margin:0 5pt 5pt 10pt;
+    margin:0 5pt 5pt 20pt;
     padding-top: 20pt;
     width: 80%;
   }
-  
   .webdev p{
     width: 70%;
   }
-
   .wire-fr_cust-li{
     margin:0;
     width:100%;
@@ -472,7 +464,7 @@ a {
   }
   .row_3{
     display:block;
-    margin:10pt 0 0 10pt;
+    margin:10pt 0 0 20pt;
   }
   .contat{
     width: 100%;
@@ -490,24 +482,26 @@ a {
   }
 
   footer{
-    display:block;
-  }
+    display:flex;
+    width: 50%;
+  
   .leftside{
-    margin:0;
-    margin-left:20pt;
+    padding: 10pt 10pt 20pt 20pt;
+    margin-left:0;
   }
-
-  .footernav {
-    display: block;
-    float: none;
+  .footernav{
     margin:0;
+    float:none;
   }
-
   .allrights{
-    margin:10pt 0 10pt 10pt;
+    margin:0;
+    margin-top:180pt;
   }
+}
 
 }
+
+
 
 @media screen and (max-width: 1024px) {
   header{
@@ -529,7 +523,7 @@ a {
     margin:0;
     margin-top:10pt;
   }
-}
+ }
   .row_1{
     flex:none;
   }
@@ -610,7 +604,7 @@ a {
   }
 
   .allrights{
-    margin:100pt 0 0 10pt;
+    margin:100pt 20pt 0 10pt;
     float:right;
     
   }
